@@ -5,7 +5,7 @@ on: push
 jobs:
   scan:
     runs-on: ubuntu-latest
-
+     
     steps:
     - name: Run Bridgecrew 
       id: Bridgecrew
